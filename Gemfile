@@ -35,11 +35,19 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 gem 'devise'
 
+gem 'devise-bootstrap-form'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+#Bootstrap 5
+gem "bootstrap_form", "~> 5.0"
+gem "bootstrap"
+
+#Use Sass to process CSS
+gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
