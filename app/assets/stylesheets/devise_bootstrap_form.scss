@@ -12,3 +12,16 @@
   @extend .row !optional;
   @extend .justify-content-around !optional;
 }
+
+.search-area{
+  padding-top: 50px;
+}
+
+.no-right-padding{
+  padding: 0 !important;
+}
+
+.no-left-padding{
+  padding: 0 !important;
+}
+

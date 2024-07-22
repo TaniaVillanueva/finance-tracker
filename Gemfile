@@ -36,11 +36,15 @@ gem "jbuilder"
 gem 'devise'
 
 gem 'devise-bootstrap-form'
+
+gem 'alphavantage'
+gem 'httparty'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem "font-awesome-rails"
 
 #Bootstrap 5
 gem "bootstrap_form", "~> 5.0"
